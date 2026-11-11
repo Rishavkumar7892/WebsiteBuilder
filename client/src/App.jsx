@@ -9,7 +9,7 @@ import WebsiteEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
 
-export const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:5000"
+export const serverUrl = "https://websitebuilder-prz9.onrender.com"
 
 const App = () => {
   useGetCurrentUser()
